@@ -1,0 +1,17 @@
+syntax="proto3";
+
+package pb;
+
+import "user.proto";
+
+option go_package="NewsAppApi/pb";
+
+message LoginUserRequest{
+    string email  =1;
+    string hash_password =2;
+}
+
+message LoginUserReponse{
+    User user = 1;
+    string token = 2;
+}

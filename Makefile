@@ -35,4 +35,10 @@ docker_up:
 docker_down:
 	docker compose down
 
-.PHONY: run postgres createdb dropdb goose_reset goose_up goose_down goose_status docker_build docker_up docker_down
+proto:
+	rm -f pb/*.go
+	protoc --proto_path=proto --go_out=pb --go_opt=paths=source_relative \
+    --go-grpc_out=pb --go-grpc_opt=paths=source_relative \
+    proto/*.proto
+
+.PHONY: run postgres createdb dropdb goose_reset goose_up goose_down goose_status docker_build docker_up docker_down proto

@@ -16,7 +16,6 @@ type Admin struct {
 
 // user schema for user table
 type User struct {
-	ID              int    `json:"id" gorm:"primary_key"`
 	Email           string `json:"email"`
 	Name            string `json:"name"`
 	Password        string `json:"hash_password"`

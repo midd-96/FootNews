@@ -1,0 +1,13 @@
+syntax="proto3";
+
+package pb;
+
+option go_package="NewsAppApi/pb";
+
+message User{
+    int32 id =1;
+    string email  =2;
+    string name =3;
+    string hash_password =4;
+    string confirm_password =5;
+}
