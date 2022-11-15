@@ -1,0 +1,797 @@
+2022/11/03 18:19:22 
+Connected to database: news_app
+2022/11/03 18:19:22 Api is listening on port: 8009
+2022/11/03 19:57:29 
+Connected to database: news_app
+2022/11/03 19:57:29 Api is listening on port: 8009
+2022/11/03 19:59:52 
+Connected to database: news_app
+2022/11/03 19:59:52 Api is listening on port: 8009
+2022/11/03 20:11:27 1     5
+2022/11/03 20:14:14 
+Connected to database: news_app
+2022/11/03 20:14:14 Api is listening on port: 8009
+2022/11/03 20:14:18 1     5
+2022/11/03 20:17:56 
+Connected to database: news_app
+2022/11/03 20:17:56 Api is listening on port: 8009
+2022/11/03 20:18:03 1     5
+2022/11/03 20:18:03 error2-service
+2022/11/03 20:18:03 error- pq: column "first_name" does not exist
+2022/11/03 20:18:03 <nil>
+2022/11/03 20:20:43 
+Connected to database: news_app
+2022/11/03 20:20:43 Api is listening on port: 8009
+2022/11/03 20:20:51 1     5
+2022/11/03 20:20:51 error2-service
+2022/11/03 20:20:51 error- pq: got 2 parameters but the statement requires 0
+2022/11/03 20:20:51 <nil>
+2022/11/03 20:22:45 0     0
+2022/11/03 20:22:45 error2-service
+2022/11/03 20:22:45 error- pq: got 2 parameters but the statement requires 0
+2022/11/03 20:22:45 <nil>
+2022/11/03 20:25:14 
+Connected to database: news_app
+2022/11/03 20:25:14 Api is listening on port: 8009
+2022/11/03 20:25:19 0     0
+2022/11/03 20:25:19 nodata error-repo
+2022/11/03 20:25:19 error2-service
+2022/11/03 20:25:19 error- sql: expected 9 destination arguments in Scan, not 10
+2022/11/03 20:25:19 <nil>
+2022/11/03 20:26:06 
+Connected to database: news_app
+2022/11/03 20:26:06 Api is listening on port: 8009
+2022/11/03 20:26:15 0     0
+2022/11/03 20:26:15 nodata error-repo
+2022/11/03 20:26:15 error2-service
+2022/11/03 20:26:15 error- sql: Scan error on column index 3, name "url": unsupported Scan, storing driver.Value type string into type *time.Time
+2022/11/03 20:26:15 <nil>
+2022/11/04 16:08:11 
+Connected to database: news_app
+2022/11/04 16:08:11 Api is listening on port: 8009
+2022/11/04 16:11:09 1     5
+2022/11/04 16:11:09 nodata error-repo
+2022/11/04 16:11:09 error2-service
+2022/11/04 16:11:09 error- sql: Scan error on column index 3, name "url": unsupported Scan, storing driver.Value type string into type *time.Time
+2022/11/04 16:11:09 <nil>
+2022/11/04 16:20:24 
+Connected to database: news_app
+2022/11/04 16:20:24 Api is listening on port: 8009
+2022/11/04 16:20:43 1     5
+2022/11/04 16:20:43 [{4 Sample title 4 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {6 qwerty https://www.google.com/ 2022-10-24 07:31:49 +0000 UTC 1 6 Test User 6 9} {2 Sample title 2 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 2 9} {9 wertyuiodfghjk https://www.google.com/ 2022-10-28 15:45:18 +0000 UTC 1 2 Test User 0 9} {3 Sample title 3 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {5 rtg https://www.google.com/ 2022-10-24 07:31:20 +0000 UTC 1 2 Test User 2 9} {7 latesrrr https://www.google.com/ 2022-10-28 15:33:11 +0000 UTC 1 2 Test User 0 9} {1 Sample title 1 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 0 Test User 1 9} {8 erfghj https://www.google.com/ 2022-10-28 15:44:40 +0000 UTC 4 2 user 0 9}]
+2022/11/04 16:20:43 {0 0 0 0 0}
+2022/11/04 16:20:43 error- <nil>
+2022/11/04 16:20:43 &[{4 Sample title 4 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {6 qwerty https://www.google.com/ 2022-10-24 07:31:49 +0000 UTC 1 6 Test User 6 9} {2 Sample title 2 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 2 9} {9 wertyuiodfghjk https://www.google.com/ 2022-10-28 15:45:18 +0000 UTC 1 2 Test User 0 9} {3 Sample title 3 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {5 rtg https://www.google.com/ 2022-10-24 07:31:20 +0000 UTC 1 2 Test User 2 9} {7 latesrrr https://www.google.com/ 2022-10-28 15:33:11 +0000 UTC 1 2 Test User 0 9} {1 Sample title 1 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 0 Test User 1 9} {8 erfghj https://www.google.com/ 2022-10-28 15:44:40 +0000 UTC 4 2 user 0 9}]
+2022/11/04 16:23:30 
+Connected to database: news_app
+2022/11/04 16:23:30 Api is listening on port: 8009
+2022/11/04 16:23:36 1     5
+2022/11/04 16:23:36 {0 0 0 0 0}
+2022/11/04 16:23:36 error- <nil>
+2022/11/04 16:23:36 &[{4 Sample title 4 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {6 qwerty https://www.google.com/ 2022-10-24 07:31:49 +0000 UTC 1 6 Test User 6 9} {2 Sample title 2 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 2 9} {9 wertyuiodfghjk https://www.google.com/ 2022-10-28 15:45:18 +0000 UTC 1 2 Test User 0 9} {3 Sample title 3 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 2 Test User 0 9} {5 rtg https://www.google.com/ 2022-10-24 07:31:20 +0000 UTC 1 2 Test User 2 9} {7 latesrrr https://www.google.com/ 2022-10-28 15:33:11 +0000 UTC 1 2 Test User 0 9} {1 Sample title 1 http://localhost 2022-10-21 05:05:26 +0000 UTC 1 0 Test User 1 9} {8 erfghj https://www.google.com/ 2022-10-28 15:44:40 +0000 UTC 4 2 user 0 9}]
+2022/11/04 16:26:22 
+Connected to database: news_app
+2022/11/04 16:26:22 Api is listening on port: 8009
+2022/11/04 16:26:29 1     5
+2022/11/04 16:26:29 pagination : {1 5}
+2022/11/04 16:26:29 {0 0 0 0 0}
+2022/11/04 16:28:40 
+Connected to database: news_app
+2022/11/04 16:28:40 Api is listening on port: 8009
+2022/11/04 16:28:45 0     0
+2022/11/04 16:28:45 pagination : {0 0}
+2022/11/04 16:28:45 {0 0 0 0 0}
+2022/11/04 16:29:02 0     0
+2022/11/04 16:29:02 pagination : {0 0}
+2022/11/04 16:29:02 {0 0 0 0 0}
+2022/11/04 16:29:40 0     0
+2022/11/04 16:29:40 pagination : {0 0}
+2022/11/04 16:29:40 {0 0 0 0 0}
+2022/11/04 16:30:36 1     5
+2022/11/04 16:30:36 pagination : {1 5}
+2022/11/04 16:30:36 {0 0 0 0 0}
+2022/11/04 16:41:56 
+Connected to database: news_app
+2022/11/04 16:41:56 Api is listening on port: 8009
+2022/11/04 16:42:00 1     5
+2022/11/04 16:42:00 pagoantion from handler {1 5}
+2022/11/04 16:42:00 pagoantion from service {1 5}
+2022/11/04 16:42:00 pagination data : {0 0 0 0 0}
+2022/11/04 16:54:37 
+Connected to database: news_app
+2022/11/04 16:54:37 Api is listening on port: 8009
+2022/11/04 16:54:50 1     5
+2022/11/04 16:54:50 pagenation from handler {1 5}
+2022/11/04 16:54:50 pagination data : {0 0 0 0 0}
+2022/11/04 16:54:50 metadata from service {0 0 0 0 0}
+2022/11/04 16:59:26 
+Connected to database: news_app
+2022/11/04 16:59:26 Api is listening on port: 8009
+2022/11/04 16:59:30 1     5
+2022/11/04 16:59:30 pagenation from handler {1 5}
+2022/11/04 16:59:30 metadata from service {0 0 0 0 0}
+2022/11/04 16:59:46 1     5
+2022/11/04 16:59:46 pagenation from handler {1 5}
+2022/11/04 16:59:46 metadata from service {0 0 0 0 0}
+2022/11/04 17:05:20 
+Connected to database: news_app
+2022/11/04 17:05:20 Api is listening on port: 8009
+2022/11/04 17:05:24 1     5
+2022/11/04 17:05:24 pagenation from handler {1 5}
+2022/11/04 17:05:24 Pagenation : {1 5}
+2022/11/04 17:05:24 pagination data : {1 5 1 2 9}
+2022/11/04 17:05:24 metadata from service {1 5 1 2 9}
+2022/11/04 17:06:49 1     3
+2022/11/04 17:06:49 pagenation from handler {1 3}
+2022/11/04 17:06:49 Pagenation : {1 3}
+2022/11/04 17:06:49 pagination data : {1 3 1 3 9}
+2022/11/04 17:06:49 metadata from service {1 3 1 3 9}
+2022/11/05 10:14:03 failed to connect to `host=localhost user=root database=news_app`: dial error (dial tcp 127.0.0.1:5435: connect: connection refused)
+2022/11/05 10:15:55 
+Connected to database: news_app
+2022/11/05 10:15:55 Api is listening on port: 8009
+2022/11/05 10:24:04 
+Connected to database: news_app
+2022/11/05 10:24:04 Api is listening on port: 8009
+2022/11/05 10:28:51 
+Connected to database: news_app
+2022/11/05 10:28:51 Api is listening on port: 8009
+2022/11/05 15:44:25 
+Connected to database: news_app
+2022/11/05 15:44:25 Api is listening on port: 8009
+2022/11/05 15:49:05 username of admin: admin@gmail.com
+2022/11/05 15:49:51 
+Connected to database: news_app
+2022/11/05 15:49:51 Api is listening on port: 8009
+2022/11/05 15:49:58 username of admin: admin@gmail.com
+2022/11/05 15:51:24 
+Connected to database: news_app
+2022/11/05 15:51:24 Api is listening on port: 8009
+2022/11/05 15:51:34 username of admin: admin@gmail.com
+2022/11/05 15:53:34 
+Connected to database: news_app
+2022/11/05 15:53:34 Api is listening on port: 8009
+2022/11/05 15:53:44 username of admin: admin@gmail.com
+2022/11/05 15:53:44 username of admin: admin@gmail.com
+2022/11/05 16:00:08 
+Connected to database: news_app
+2022/11/05 16:00:08 Api is listening on port: 8009
+2022/11/05 16:00:13 username of admin: admin@gmail.com
+2022/11/05 16:10:15 
+Connected to database: news_app
+2022/11/05 16:10:15 Api is listening on port: 8009
+2022/11/05 16:11:31 username of admin: admin@gmail.com
+2022/11/05 16:11:31 username of admin: admin@gmail.com
+2022/11/05 16:11:47 username of admin: admin@gmail.com
+2022/11/05 16:18:13 
+Connected to database: news_app
+2022/11/05 16:18:13 Api is listening on port: 8009
+2022/11/05 16:19:32 username of admin: admin@gmail.com
+2022/11/05 16:19:32 username of admin: admin@gmail.com
+2022/11/05 16:58:15 
+Connected to database: news_app
+2022/11/05 16:58:15 Api is listening on port: 8009
+2022/11/05 17:14:18 
+Connected to database: news_app
+2022/11/05 17:14:18 Api is listening on port: 8009
+2022/11/05 19:45:28 
+Connected to database: news_app
+2022/11/05 19:45:28 Api is listening on port: 8009
+2022/11/05 20:07:25 
+Connected to database: news_app
+2022/11/05 20:07:25 Api is listening on port: 8009
+2022/11/05 20:10:00 
+Connected to database: news_app
+2022/11/05 20:10:00 Api is listening on port: 8009
+2022/11/05 20:10:07 0
+2022/11/05 20:11:28 
+Connected to database: news_app
+2022/11/05 20:11:28 Api is listening on port: 8009
+2022/11/05 20:11:32 user id from token  0
+2022/11/05 21:53:49 
+Connected to database: news_app
+2022/11/05 21:53:49 Api is listening on port: 8009
+2022/11/05 21:54:01 user id from token  0
+2022/11/06 21:47:36 
+Connected to database: news_app
+2022/11/06 21:47:36 Api is listening on port: 8009
+2022/11/06 21:49:54 user id from token  0
+2022/11/06 21:51:19 user id from token  0
+2022/11/06 21:51:32 
+Connected to database: news_app
+2022/11/06 21:51:32 Api is listening on port: 8009
+2022/11/06 21:51:42 user id from token  0
+2022/11/06 22:11:49 
+Connected to database: news_app
+2022/11/06 22:11:49 Api is listening on port: 8009
+2022/11/06 22:18:02 
+Connected to database: news_app
+2022/11/06 22:18:02 Api is listening on port: 8009
+2022/11/06 23:00:54 
+Connected to database: newsApp
+2022/11/06 23:00:54 Api is listening on port: 8009
+2022/11/06 23:07:44 
+Connected to database: newsApp
+2022/11/06 23:07:44 Api is listening on port: 8009
+2022/11/06 23:20:01 
+Connected to database: newsApp
+2022/11/06 23:20:01 Api is listening on port: 8009
+2022/11/06 23:32:50 
+Connected to database: newsApp
+2022/11/06 23:32:50 Api is listening on port: 8009
+2022/11/06 23:34:37 1     3
+2022/11/06 23:34:37 pagenation from handler {1 3}
+2022/11/06 23:34:37 Pagenation : {1 3}
+2022/11/06 23:34:37 metadata from service {0 0 0 0 0}
+2022/11/06 23:34:56 1     3
+2022/11/06 23:34:56 pagenation from handler {1 3}
+2022/11/06 23:34:56 Pagenation : {1 3}
+2022/11/06 23:34:56 metadata from service {0 0 0 0 0}
+2022/11/06 23:36:12 
+Connected to database: newsApp
+2022/11/06 23:36:12 Api is listening on port: 8009
+2022/11/06 23:36:18 1     3
+2022/11/06 23:36:18 pagenation from handler {1 3}
+2022/11/06 23:36:18 Pagenation : {1 3}
+2022/11/06 23:36:18 metadata from service {0 0 0 0 0}
+2022/11/06 23:36:27 1     3
+2022/11/06 23:36:27 pagenation from handler {1 3}
+2022/11/06 23:36:27 Pagenation : {1 3}
+2022/11/06 23:36:27 metadata from service {0 0 0 0 0}
+2022/11/06 23:36:42 1     3
+2022/11/06 23:36:42 pagenation from handler {1 3}
+2022/11/06 23:36:42 Pagenation : {1 3}
+2022/11/06 23:36:42 metadata from service {0 0 0 0 0}
+2022/11/06 23:37:49 
+Connected to database: newsApp
+2022/11/06 23:37:49 Api is listening on port: 8009
+2022/11/06 23:37:55 1     3
+2022/11/06 23:37:55 pagenation from handler {1 3}
+2022/11/06 23:37:55 Pagenation : {1 3}
+2022/11/06 23:37:55 metadata from service {0 0 0 0 0}
+2022/11/06 23:39:13 
+Connected to database: newsApp
+2022/11/06 23:39:13 Api is listening on port: 8009
+2022/11/06 23:39:20 1     3
+2022/11/06 23:39:20 pagenation from handler {1 3}
+2022/11/06 23:39:20 Pagenation : {1 3}
+2022/11/06 23:39:20 metadata from service {1 3 1 2 4}
+2022/11/06 23:41:01 1     3
+2022/11/06 23:41:01 pagenation from handler {1 3}
+2022/11/06 23:41:01 Pagenation : {1 3}
+2022/11/06 23:41:01 metadata from service {1 3 1 1 2}
+2022/11/06 23:42:08 
+Connected to database: newsApp
+2022/11/06 23:42:08 Api is listening on port: 8009
+2022/11/06 23:42:13 1     3
+2022/11/06 23:42:13 pagenation from handler {1 3}
+2022/11/06 23:42:13 Pagenation : {1 3}
+2022/11/06 23:42:13 metadata from service {1 3 1 1 2}
+2022/11/07 16:33:39 
+Connected to database: newsApp
+2022/11/07 16:33:39 Api is listening on port: 8009
+2022/11/07 16:35:13 1     3
+2022/11/07 16:35:13 pagenation from handler {1 3}
+2022/11/07 16:35:13 Pagenation : {1 3}
+2022/11/07 16:35:13 metadata from service {1 3 1 1 2}
+2022/11/07 16:38:38 
+Connected to database: newsApp
+2022/11/07 16:38:38 Api is listening on port: 8009
+2022/11/07 16:38:43 1     3
+2022/11/07 16:38:43 pagenation from handler {1 3}
+2022/11/07 16:38:43 Pagenation : {1 3}
+2022/11/07 16:38:43 
+	SELECT COUNT(*) OVER() AS total_records, pq.*, u.name as uname FROM (
+	    SELECT p.id, p.title, p.url, p.created_at, p.user_id as uid, COUNT(c.post_id) as comment_count, count(v.post_id) as votes
+		FROM posts p 
+		LEFT JOIN comments c ON p.id = c.post_id 
+	    LEFT JOIN votes v ON p.id = v.post_id
+	 	
+		GROUP BY p.id
+
+		) AS pq
+	LEFT JOIN users u ON u.id = uid
+2022/11/07 16:38:43 metadata from service {1 3 1 1 2}
+2022/11/07 16:41:42 
+Connected to database: newsApp
+2022/11/07 16:41:42 Api is listening on port: 8009
+2022/11/07 16:41:52 1     3
+2022/11/07 16:41:52 pagenation from handler {1 3}
+2022/11/07 16:41:52 Pagenation : {1 3}
+2022/11/07 16:41:52 metadata from service {1 3 1 1 2}
+2022/11/07 16:43:05 
+Connected to database: newsApp
+2022/11/07 16:43:05 Api is listening on port: 8009
+2022/11/07 16:43:09 1     3
+2022/11/07 16:43:09 pagenation from handler {1 3}
+2022/11/07 16:43:09 Pagenation : {1 3}
+2022/11/07 16:43:09 metadata from service {1 3 1 1 2}
+2022/11/07 16:43:37 
+Connected to database: newsApp
+2022/11/07 16:43:37 Api is listening on port: 8009
+2022/11/07 16:43:41 1     3
+2022/11/07 16:43:41 pagenation from handler {1 3}
+2022/11/07 16:43:41 Pagenation : {1 3}
+2022/11/07 16:43:41 metadata from service {1 3 1 1 2}
+2022/11/07 16:46:11 
+Connected to database: newsApp
+2022/11/07 16:46:11 Api is listening on port: 8009
+2022/11/07 16:46:15 1     3
+2022/11/07 16:46:15 pagenation from handler {1 3}
+2022/11/07 16:46:15 Pagenation : {1 3}
+2022/11/07 16:46:15 metadata from service {0 0 0 0 0}
+2022/11/07 16:46:43 
+Connected to database: newsApp
+2022/11/07 16:46:43 Api is listening on port: 8009
+2022/11/07 16:46:49 1     3
+2022/11/07 16:46:49 pagenation from handler {1 3}
+2022/11/07 16:46:49 Pagenation : {1 3}
+2022/11/07 16:46:49 metadata from service {1 3 1 1 2}
+2022/11/07 16:54:04 
+Connected to database: newsApp
+2022/11/07 16:54:04 Api is listening on port: 8009
+2022/11/07 16:54:17 1     3
+2022/11/07 16:54:17 pagenation from handler {1 3}
+2022/11/07 16:54:17 Pagenation : {1 3}
+2022/11/07 16:54:17 metadata from service {1 3 1 1 2}
+2022/11/07 16:57:24 1     3
+2022/11/07 16:57:24 pagenation from handler {1 3}
+2022/11/07 16:57:24 Pagenation : {1 3}
+2022/11/07 16:57:24 pagination data : {1 3 1 1 1}
+2022/11/07 16:57:24 metadata from service {1 3 1 1 1}
+2022/11/07 16:58:22 1     3
+2022/11/07 16:58:22 pagenation from handler {1 3}
+2022/11/07 16:58:22 Pagenation : {1 3}
+2022/11/07 16:58:22 pagination data : {1 3 1 1 2}
+2022/11/07 16:58:22 metadata from service {1 3 1 1 2}
+2022/11/09 16:53:13 
+Connected to database: newsApp
+2022/11/09 16:53:51 
+Connected to database: newsApp
+2022/11/09 16:53:51 Api is listening on port: 8009
+2022/11/09 16:59:25 
+Connected to database: newsApp
+2022/11/09 16:59:25 Api is listening on port: 8009
+2022/11/09 16:59:34 post id : 0
+2022/11/09 17:05:42 
+Connected to database: newsApp
+2022/11/09 17:05:42 Api is listening on port: 8009
+2022/11/09 17:06:13 post id : 0
+2022/11/09 17:06:43 post id : 0
+2022/11/09 17:07:18 post id : 0
+2022/11/09 17:09:17 
+Connected to database: newsApp
+2022/11/09 17:09:17 Api is listening on port: 8009
+2022/11/09 17:09:21 post id : 0
+2022/11/09 17:12:56 
+Connected to database: newsApp
+2022/11/09 17:12:56 Api is listening on port: 8009
+2022/11/09 17:13:05 post id : 0
+2022/11/09 17:13:05 UPDATE posts
+				SET approved = $1
+					WHERE id = $2;
+2022/11/09 17:22:30 
+Connected to database: newsApp
+2022/11/09 17:22:30 Api is listening on port: 8009
+2022/11/09 17:22:35 post id : 0
+2022/11/09 17:26:09 
+Connected to database: newsApp
+2022/11/09 17:26:09 Api is listening on port: 8009
+2022/11/09 17:26:14 post id : 0
+2022/11/09 17:26:28 post id : 10
+2022/11/09 17:26:58 post id : 10
+2022/11/09 17:28:32 post id : 10
+2022/11/09 17:31:17 
+Connected to database: newsApp
+2022/11/09 17:31:17 Api is listening on port: 8009
+2022/11/09 17:31:21 post id : 10
+2022/11/09 17:32:26 
+Connected to database: newsApp
+2022/11/09 17:32:26 Api is listening on port: 8009
+2022/11/09 17:32:29 post id : 10
+2022/11/09 17:34:06 
+Connected to database: newsApp
+2022/11/09 17:34:06 Api is listening on port: 8009
+2022/11/09 17:34:14 post id : 10
+2022/11/09 17:34:14 &{<nil> 0xc0000b8000}
+2022/11/09 17:35:31 
+Connected to database: newsApp
+2022/11/09 17:35:31 Api is listening on port: 8009
+2022/11/09 17:35:40 post id : 10
+2022/11/09 17:35:40 &{<nil> 0xc000312000}
+2022/11/09 18:29:35 
+Connected to database: newsApp
+2022/11/09 18:29:35 Api is listening on port: 8009
+2022/11/09 18:29:42 1     3
+2022/11/09 18:29:42 pagenation from handler {1 3}
+2022/11/09 18:29:42 Pagenation : {1 3}
+2022/11/09 18:29:42 metadata from service {0 0 0 0 0}
+2022/11/09 18:33:51 
+Connected to database: newsApp
+2022/11/09 18:33:51 Api is listening on port: 8009
+2022/11/09 18:33:55 1     3
+2022/11/09 18:33:55 pagenation from handler {1 3}
+2022/11/09 18:33:55 Pagenation : {1 3}
+2022/11/09 18:33:55 metadata from service {0 0 0 0 0}
+2022/11/09 18:34:12 1     3
+2022/11/09 18:34:12 pagenation from handler {1 3}
+2022/11/09 18:34:12 Pagenation : {1 3}
+2022/11/09 18:34:12 metadata from service {0 0 0 0 0}
+2022/11/09 18:39:50 
+Connected to database: newsApp
+2022/11/09 18:39:50 Api is listening on port: 8009
+2022/11/09 18:39:54 1     3
+2022/11/09 18:39:54 pagenation from handler {1 3}
+2022/11/09 18:39:54 Pagenation : {1 3}
+2022/11/09 18:39:54 pagination data : {1 3 1 1 1}
+2022/11/09 18:39:54 metadata from service {1 3 1 1 1}
+2022/11/09 18:54:41 1     3
+2022/11/09 18:54:41 pagenation from handler {1 3}
+2022/11/09 18:54:41 Pagenation : {1 3}
+2022/11/09 18:54:41 pagination data : {1 3 1 1 1}
+2022/11/09 18:54:41 metadata from service {1 3 1 1 1}
+2022/11/09 19:10:14 
+Connected to database: newsApp
+2022/11/09 19:10:49 
+Connected to database: newsApp
+2022/11/09 19:10:49 Api is listening on port: 8009
+2022/11/09 19:11:52 1     3
+2022/11/09 19:11:52 pagenation from handler {1 3}
+2022/11/09 19:11:52 Pagenation : {1 3}
+2022/11/09 19:11:52 pagination data : {1 3 1 1 1}
+2022/11/09 19:11:52 metadata from service {1 3 1 1 1}
+2022/11/09 19:13:26 0     0
+2022/11/09 19:13:26 Pagenation : {0 0}
+2022/11/09 19:13:26 pagination data : {0 0 1 -9223372036854775808 2}
+2022/11/09 19:13:26 metadata from service {0 0 1 -9223372036854775808 2}
+2022/11/09 19:14:16 1     3
+2022/11/09 19:14:16 Pagenation : {1 3}
+2022/11/09 19:14:16 pagination data : {1 3 1 1 2}
+2022/11/09 19:14:16 metadata from service {1 3 1 1 2}
+2022/11/09 19:21:34 
+Connected to database: newsApp
+2022/11/09 19:21:34 Api is listening on port: 8009
+2022/11/09 19:21:54 1     3
+2022/11/09 19:21:54 pagenation from handler {1 3}
+2022/11/09 19:21:54 Pagenation : {1 3}
+2022/11/09 19:21:54 pagination data : {1 3 1 1 1}
+2022/11/09 19:21:54 metadata from service {1 3 1 1 1}
+2022/11/09 19:30:50 
+Connected to database: newsApp
+2022/11/09 19:30:50 Api is listening on port: 8009
+2022/11/09 19:31:03 1     3
+2022/11/09 19:31:03 Pagenation : {1 3}
+2022/11/09 19:31:03 pagination data : {1 3 1 1 2}
+2022/11/09 19:31:03 metadata from service {1 3 1 1 2}
+2022/11/09 19:34:53 
+Connected to database: newsApp
+2022/11/09 19:34:53 Api is listening on port: 8009
+2022/11/09 19:35:03 1     3
+2022/11/09 19:35:03 Pagenation : {1 3}
+2022/11/09 19:35:03 Votes :  0
+2022/11/09 19:35:03 Votes :  0
+2022/11/09 19:35:03 pagination data : {1 3 1 1 2}
+2022/11/09 19:35:03 metadata from service {1 3 1 1 2}
+2022/11/09 19:51:30 
+Connected to database: newsApp
+2022/11/09 19:51:30 Api is listening on port: 8009
+2022/11/09 19:51:42 1     3
+2022/11/09 19:51:42 Pagenation : {1 3}
+2022/11/09 19:51:42 Votes :  0
+2022/11/09 19:51:42 []
+2022/11/09 19:51:42 Votes :  0
+2022/11/09 19:51:42 [{12 elgoog www.elgoog.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 false 2}]
+2022/11/09 19:51:42 pagination data : {1 3 1 1 2}
+2022/11/09 19:51:42 metadata from service {1 3 1 1 2}
+2022/11/09 19:57:50 
+Connected to database: newsApp
+2022/11/09 19:57:50 Api is listening on port: 8009
+2022/11/09 19:57:55 1     3
+2022/11/09 19:57:55 Pagenation : {1 3}
+2022/11/09 19:57:55 Votes :  0
+2022/11/09 19:57:55 []
+2022/11/09 19:57:55 Votes :  0
+2022/11/09 19:57:55 [{12 elgoog www.elgoog.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 false 2}]
+2022/11/09 19:57:55 pagination data : {1 3 1 1 2}
+2022/11/09 19:57:55 metadata from service {1 3 1 1 2}
+2022/11/09 19:57:55 Posts from admin handler :  {0xc0002b0000 0xc00028e030}
+2022/11/09 19:59:11 
+Connected to database: newsApp
+2022/11/09 19:59:11 Api is listening on port: 8009
+2022/11/09 19:59:15 1     3
+2022/11/09 19:59:15 Pagenation : {1 3}
+2022/11/09 19:59:15 Votes :  0
+2022/11/09 19:59:15 []
+2022/11/09 19:59:15 Votes :  0
+2022/11/09 19:59:15 [{12 elgoog www.elgoog.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 false 2}]
+2022/11/09 19:59:15 pagination data : {1 3 1 1 2}
+2022/11/09 19:59:15 metadata from service {1 3 1 1 2}
+2022/11/09 19:59:15 Posts from admin handler :  &[{12 elgoog www.elgoog.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 false 2} {10 google www.google.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 true 2}]
+2022/11/09 20:01:11 
+Connected to database: newsApp
+2022/11/09 20:01:11 Api is listening on port: 8009
+2022/11/09 20:01:16 1     3
+2022/11/09 20:01:16 Pagenation : {1 3}
+2022/11/09 20:01:16 Votes :  0
+2022/11/09 20:01:16 []
+2022/11/09 20:01:16 Votes :  0
+2022/11/09 20:01:16 [{12 elgoog www.elgoog.com 0001-01-01 00:00:00 +0000 UTC 1 0 user1 0 false 2}]
+2022/11/09 20:01:16 pagination data : {1 3 1 1 2}
+2022/11/09 20:01:16 metadata from service {1 3 1 1 2}
+2022/11/09 20:01:16 Posts from admin handler :  {0xc0000b8000 0xc0000a0030}
+2022/11/10 11:18:43 
+Connected to database: newsApp
+2022/11/10 11:18:43 Api is listening on port: 8009
+2022/11/10 11:18:49 error :  &{<nil> 0xc0000ce000}
+2022/11/10 11:20:07 
+Connected to database: newsApp
+2022/11/10 11:20:07 Api is listening on port: 8009
+2022/11/10 11:20:09 error :  &{<nil> 0xc0000ffe00}
+2022/11/10 11:27:39 1     3
+2022/11/10 11:27:39 pagenation from handler {1 3}
+2022/11/10 11:27:39 Pagenation : {1 3}
+2022/11/10 11:27:39 pagination data : {1 3 1 1 1}
+2022/11/10 11:27:39 metadata from service {1 3 1 1 1}
+2022/11/10 12:41:19 
+Connected to database: newsApp
+2022/11/10 12:41:19 Api is listening on port: 8009
+2022/11/10 13:09:51 
+Connected to database: newsApp
+2022/11/10 13:09:51 Api is listening on port: 8009
+2022/11/10 13:09:56 Newly voting
+2022/11/10 13:11:53 
+Connected to database: newsApp
+2022/11/10 13:11:53 Api is listening on port: 8009
+2022/11/10 13:11:57 Newly voting
+2022/11/10 13:12:59 
+Connected to database: newsApp
+2022/11/10 13:12:59 Api is listening on port: 8009
+2022/11/10 13:13:04 Newly voting
+2022/11/10 13:13:04 error : &{0xc0000b8120 <nil>}
+2022/11/10 13:14:47 
+Connected to database: newsApp
+2022/11/10 13:14:47 Api is listening on port: 8009
+2022/11/10 13:14:53 Newly voting
+2022/11/10 13:14:53 error : &{0xc0002c6120 <nil>}
+2022/11/10 13:17:11 
+Connected to database: newsApp
+2022/11/10 13:17:11 Api is listening on port: 8009
+2022/11/10 13:17:16 Newly voting
+2022/11/10 13:17:16 error : &{<nil> 0xc0000fdf00}
+2022/11/10 13:17:33 already voted voting
+2022/11/10 13:22:16 
+Connected to database: newsApp
+2022/11/10 13:22:16 Api is listening on port: 8009
+2022/11/10 13:22:21 Newly voting
+2022/11/10 13:22:21 error : &{<nil> 0xc0002c2100}
+2022/11/10 13:22:37 already voted voting
+2022/11/10 13:23:21 
+Connected to database: newsApp
+2022/11/10 13:23:21 Api is listening on port: 8009
+2022/11/10 13:24:53 Newly voting
+2022/11/10 13:24:53 error : &{<nil> 0xc000338100}
+2022/11/10 13:25:07 already voted voting
+2022/11/10 13:34:49 
+Connected to database: newsApp
+2022/11/10 13:34:49 Api is listening on port: 8009
+2022/11/10 13:34:59 Newly voting
+2022/11/10 13:34:59 error : &{<nil> 0xc000296100}
+2022/11/10 13:40:06 already voted voting
+2022/11/10 15:10:06 
+Connected to database: newsApp
+2022/11/10 15:10:06 Api is listening on port: 8009
+2022/11/10 15:10:11 error : 0xc000011018
+2022/11/10 15:10:11 error : &{<nil> 0xc000163f00}
+2022/11/10 16:10:34 
+Connected to database: newsApp
+2022/11/10 16:10:34 Api is listening on port: 8009
+2022/11/10 16:10:57 error : <nil>
+2022/11/10 16:10:57 count : &{0xc000216870 0x503d40 0xc00026b680 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []}
+2022/11/10 16:10:57 error : &{<nil> 0xc0002ce100}
+2022/11/10 16:19:39 
+Connected to database: newsApp
+2022/11/10 16:19:39 Api is listening on port: 8009
+2022/11/10 16:19:44 total count 0
+2022/11/10 16:19:44 error : &{<nil> 0xc000344100}
+2022/11/10 16:21:42 
+Connected to database: newsApp
+2022/11/10 16:21:42 Api is listening on port: 8009
+2022/11/10 16:21:48 user Id :  1
+2022/11/10 16:21:48 total count 0
+2022/11/10 16:21:48 error : &{<nil> 0xc000161e80}
+2022/11/10 17:04:07 
+Connected to database: newsApp
+2022/11/10 17:04:07 Api is listening on port: 8009
+2022/11/10 17:04:12 count :  {0xc0002167e0 0x503d40 0xc00026b680 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []}
+2022/11/10 17:04:12 user Id :  &{0xc0002167e0 0x503d40 0xc00026b680 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []}
+2022/11/10 17:04:12 error : &{<nil> 0xc000348100}
+2022/11/10 17:07:38 
+Connected to database: newsApp
+2022/11/10 17:07:38 Api is listening on port: 8009
+2022/11/10 17:07:44 count :  {0xc0002167e0 0x503d40 0xc00026b5e0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []}
+2022/11/10 17:07:44 rows :  &{0xc0002167e0 0x503d40 0xc00026b5e0 <nil> <nil> {{0 0} 0 0 0 0} false <nil> []}
+2022/11/10 17:07:44 error : &{<nil> 0xc0002ca100}
+2022/11/10 17:09:24 
+Connected to database: newsApp
+2022/11/10 17:09:24 Api is listening on port: 8009
+2022/11/10 17:09:27 rows :  &{<nil> 0xc0002c2000}
+2022/11/10 17:09:27 error : &{<nil> 0xc0002c2280}
+2022/11/10 17:10:11 
+Connected to database: newsApp
+2022/11/10 17:10:11 Api is listening on port: 8009
+2022/11/10 17:10:15 rows :  0xc0002be028
+2022/11/10 17:10:15 error : &{<nil> 0xc0002c2280}
+2022/11/10 17:17:06 
+Connected to database: newsApp
+2022/11/10 17:17:06 Api is listening on port: 8009
+2022/11/10 17:17:11 error : &{<nil> 0xc0000a2180}
+2022/11/10 17:19:08 
+Connected to database: newsApp
+2022/11/10 17:19:08 Api is listening on port: 8009
+2022/11/10 17:19:12 error : &{<nil> 0xc0000d2100}
+2022/11/10 17:20:06 
+Connected to database: newsApp
+2022/11/10 17:20:06 Api is listening on port: 8009
+2022/11/10 17:20:10 error : &{<nil> 0xc000302100}
+2022/11/10 17:21:14 
+Connected to database: newsApp
+2022/11/10 17:21:14 Api is listening on port: 8009
+2022/11/10 17:21:17 Total Records 1
+2022/11/10 17:21:17 error : &{<nil> 0xc0002c0100}
+2022/11/10 17:25:38 
+Connected to database: newsApp
+2022/11/10 17:25:38 Api is listening on port: 8009
+2022/11/10 17:25:44 Total Records 12
+2022/11/10 17:25:44 error : &{<nil> 0xc000288100}
+2022/11/10 17:27:27 
+Connected to database: newsApp
+2022/11/10 17:27:27 Api is listening on port: 8009
+2022/11/10 17:50:08 
+Connected to database: newsApp
+2022/11/10 17:50:08 Api is listening on port: 8009
+2022/11/10 17:53:33 
+Connected to database: newsApp
+2022/11/10 17:53:33 Api is listening on port: 8009
+2022/11/10 17:57:22 
+Connected to database: newsApp
+2022/11/10 17:57:22 Api is listening on port: 8009
+2022/11/10 18:36:58 
+Connected to database: newsApp
+2022/11/10 18:36:58 Api is listening on port: 8009
+2022/11/10 19:15:59 
+Connected to database: newsApp
+2022/11/10 19:15:59 Api is listening on port: 8009
+2022/11/10 19:17:42 
+Connected to database: newsApp
+2022/11/10 19:17:42 Api is listening on port: 8009
+2022/11/10 19:17:46 blocked
+2022/11/10 19:20:29 
+Connected to database: newsApp
+2022/11/10 19:20:29 Api is listening on port: 8009
+2022/11/10 19:20:34 blocked
+2022/11/10 19:25:21 
+Connected to database: newsApp
+2022/11/10 19:25:21 Api is listening on port: 8009
+2022/11/10 19:25:28 blocked
+2022/11/10 19:26:39 
+Connected to database: newsApp
+2022/11/10 19:26:39 Api is listening on port: 8009
+2022/11/10 19:26:43 blocked
+2022/11/10 19:27:22 
+Connected to database: newsApp
+2022/11/10 19:27:22 Api is listening on port: 8009
+2022/11/10 19:27:28 blocked
+2022/11/10 19:27:28 failed to login. check your email
+2022/11/10 19:30:41 
+Connected to database: newsApp
+2022/11/10 19:30:41 Api is listening on port: 8009
+2022/11/10 19:30:46 blocked
+2022/11/10 19:30:46 failed to login. check your email
+2022/11/10 19:37:51 
+Connected to database: newsApp
+2022/11/10 19:37:51 Api is listening on port: 8009
+2022/11/10 19:37:59 blocked
+2022/11/10 19:37:59 failed to login. check your email
+2022/11/10 19:39:36 
+Connected to database: newsApp
+2022/11/10 19:39:36 Api is listening on port: 8009
+2022/11/10 19:39:39 blocked
+2022/11/10 19:39:39 false
+2022/11/10 19:39:39 failed to login. check your email
+2022/11/10 19:40:38 
+Connected to database: newsApp
+2022/11/10 19:40:38 Api is listening on port: 8009
+2022/11/10 19:40:41 blocked
+2022/11/10 19:40:41 false
+2022/11/10 19:40:41 returnes correct error from service
+2022/11/10 19:40:41 blocked
+2022/11/10 19:41:35 failed to login. check your credential
+2022/11/10 19:41:46 blocked
+2022/11/10 19:41:46 false
+2022/11/10 19:41:46 returnes correct error from service
+2022/11/10 19:41:46 blocked
+2022/11/10 19:43:48 
+Connected to database: newsApp
+2022/11/10 19:43:48 Api is listening on port: 8009
+2022/11/10 19:43:53 blocked
+2022/11/10 19:43:53 false
+2022/11/10 19:43:53 failed to login. check your email
+2022/11/10 19:44:08 failed to login. check your credential
+2022/11/10 19:44:51 blocked
+2022/11/10 19:44:51 false
+2022/11/10 19:44:51 failed to login. check your email
+2022/11/10 20:07:11 
+Connected to database: newsApp
+2022/11/10 20:07:11 Api is listening on port: 8009
+2022/11/10 21:00:13 1     3
+2022/11/10 21:00:13 pagenation from handler {1 3}
+2022/11/10 21:00:13 Pagenation : {1 3}
+2022/11/10 21:00:13 pagination data : {1 3 1 1 1}
+2022/11/10 21:00:13 metadata from service {1 3 1 1 1}
+2022/11/12 10:44:02 
+Connected to database: newsApp
+2022/11/12 10:44:02 Api is listening on port: 8009
+2022/11/12 10:45:38 userId from header :  
+2022/11/12 10:47:19 
+Connected to database: newsApp
+2022/11/12 10:47:19 Api is listening on port: 8009
+2022/11/12 10:47:58 userId from header :  0
+2022/11/12 10:48:22 userId from header :  0
+2022/11/12 10:48:31 userId from header :  0
+2022/11/12 10:50:25 userId from header :  0
+2022/11/12 10:59:37 
+Connected to database: newsApp
+2022/11/12 10:59:37 Api is listening on port: 8009
+2022/11/12 10:59:42 userId from header :  user1@gmail.com
+2022/11/12 11:04:39 
+Connected to database: newsApp
+2022/11/12 11:04:39 Api is listening on port: 8009
+2022/11/12 11:04:44 userId from header :  
+2022/11/12 11:06:02 
+Connected to database: newsApp
+2022/11/12 11:06:02 Api is listening on port: 8009
+2022/11/12 11:06:08 userId from header :  0
+2022/11/12 11:07:13 
+Connected to database: newsApp
+2022/11/12 11:07:13 Api is listening on port: 8009
+2022/11/12 11:07:18 userId from header :  0
+2022/11/12 11:12:42 
+Connected to database: newsApp
+2022/11/12 11:12:42 Api is listening on port: 8009
+2022/11/12 11:12:48 userId from header :  0
+2022/11/12 11:14:11 
+Connected to database: newsApp
+2022/11/12 11:14:11 Api is listening on port: 8009
+2022/11/12 11:14:51 userId from header :  0
+2022/11/12 11:15:10 userId from header :  0
+2022/11/12 11:17:23 
+Connected to database: newsApp
+2022/11/12 11:17:23 Api is listening on port: 8009
+2022/11/12 11:20:23 userId from header :  0
+2022/11/12 11:23:51 
+Connected to database: newsApp
+2022/11/12 11:23:51 Api is listening on port: 8009
+2022/11/12 11:24:57 user_id : 1
+2022/11/12 11:24:57 claims. uID : 1
+2022/11/12 11:24:57 userId from header :  0
+2022/11/12 11:29:34 
+Connected to database: newsApp
+2022/11/12 11:29:34 Api is listening on port: 8009
+2022/11/12 11:29:52 user_id : 1
+2022/11/12 11:29:52 claims. uID : 1
+2022/11/12 11:29:52 userId from header :  0
+2022/11/12 11:40:03 
+Connected to database: newsApp
+2022/11/12 11:40:03 Api is listening on port: 8009
+2022/11/12 11:40:31 userId from header :  0
+2022/11/12 11:41:34 
+Connected to database: newsApp
+2022/11/12 11:41:34 Api is listening on port: 8009
+2022/11/12 11:41:53 userId from header :  1
+2022/11/12 11:44:36 
+Connected to database: newsApp
+2022/11/12 11:44:36 Api is listening on port: 8009
+2022/11/12 12:35:38 
+Connected to database: newsApp
+2022/11/12 12:35:38 Api is listening on port: 8009
+2022/11/12 12:36:36 error :  &{<nil> 0xc0000be080}

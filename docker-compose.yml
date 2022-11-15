@@ -1,0 +1,24 @@
+version: '4.10.0'
+
+services:
+  postgres:
+    container_name: postgresNewsApp
+    image: postgres:12-alpine
+    environment:
+      - POSTGRES_USER=root
+      - POSTGRES_PASSWORD=secret
+      - POSTGRES_DB=newsApp
+    ports:
+      - "5435:5435"
+    volumes:
+      - db:/var/lib/posgresql/data
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8080:8009"
+    environment:
+      - DB_SOURCE=postgresql://root:secret@localhost:5435/newsApp?sslmode=disable         
+    depends_on:
+      - postgres
